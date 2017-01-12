@@ -1,0 +1,64 @@
+/****************************
+	DIV Container
+****************************/
+
+#head {
+	width: 100%;
+	font-size: 1.25em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#main{
+	margin-top: 1%;
+}
+
+#login {
+	height: 100%;
+	width: 90%;
+	margin-top: -1.25em;
+	text-align: right;
+	margin-right: 5%;
+}
+
+/****************************
+	Klassen
+****************************/
+
+/* Suchfunktion auf der Hauptseite */
+.search {
+	height: 25px;
+	margin-bottom: 25px !important;
+}
+
+/* Für Ausgabe von Fehlermeldungen */
+.warning {
+	color: #AA0000;
+	font-weight: bold;
+}
+
+/* Abstand Horizontaler Elemente */
+.space {
+	margin-right: 10%;
+}
+
+/****************************
+	HTML-Tags
+****************************/
+
+#main input, select {
+	width: 100%;
+	margin-bottom: 5px;
+	display: block;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+}
+
+h2 {
+	display: inline;
+	margin-left: 1%;
+	margin-bottom: 1%;
+}
